@@ -1,4 +1,4 @@
-function [data,warning]=phenologysimu_og(popsize,d,v,C,L,mut,mutsize,initmean,shared,generations)
+function [data,warning]=phenologysimu_original(popsize,d,v,C,L,mut,mutsize,initmean,shared,generations)
 % simulation approach
 % remember to put in the paper: address info, also the wallpaper paper
 

@@ -119,4 +119,6 @@ for k=1:generations
         offspring(fa(2),i)=pop(fa(1)+whichallele_sperm(3,i),sire(i))';
     end
     pop(sa(1):fa(2),:)=offspring(sa(1):fa(2),:)+(rand([6 popsize])<mut).*mutsize.*randn([1 popsize]); % add mutations, and the new generation is ready
+    pop(1,:)=offspring(1,:); % add mutations, and the new generation is ready
+
 end
